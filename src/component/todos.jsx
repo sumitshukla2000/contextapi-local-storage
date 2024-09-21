@@ -19,8 +19,8 @@ const Todos = () =>{
             </div>
                  
                  <div className="inline space-x-4">
-                <p className="bg-gray-100 p-2 inline rounded cursor-pointer" onClick={editToggle}>{edit ? '📁' : '✏️'}</p>
-                 <p className="bg-gray-100 p-2 inline rounded cursor-pointer">❌</p>
+                <button className="bg-gray-100 p-2 inline rounded" onClick={editToggle}>{edit ? '📁' : '✏️'}</button>
+                 <button className="bg-gray-100 p-2 inline rounded">❌</button>
                  </div>
             </div>
         </div>
